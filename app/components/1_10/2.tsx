@@ -58,7 +58,7 @@ const initialEdges: Edge[] = [
   { id: 'start-task-2', source: 'start', target: 'task-2' },
 ];
 
-export default function Home() {
+export default function Two() {
   const [nodes, setNodes] = useState<Node[]>(initialNodes);
   const [edges, setEdges] = useState<Edge[]>(initialEdges);
 
